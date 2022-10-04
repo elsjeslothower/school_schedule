@@ -13,4 +13,5 @@ class Student:
     def summary(self):
         return f"{self.name} is a {self.grade} enrolled in {self.get_num_classes()} classes."
 
-    
+    # def __str__(self):
+        # return f"{self.name.upper()} is a {self.grade} enrolled in {self.get_num_classes()} classes."
